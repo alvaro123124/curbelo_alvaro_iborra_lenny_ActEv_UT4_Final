@@ -1,5 +1,5 @@
 package com.empresa.model;
 
-public class Estado {
-    
+public enum Estado {
+    DISPONIBLE, RESERVADO, OCUPADO
 }

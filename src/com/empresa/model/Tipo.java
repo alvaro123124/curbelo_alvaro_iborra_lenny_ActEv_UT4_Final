@@ -1,5 +1,5 @@
 package com.empresa.model;
 
-public class Tipo {
-    
+public enum Tipo {
+    INDIVIDUAL, DOBLE, SUITE
 }
