@@ -7,7 +7,6 @@ public class Habitacion {
     public Estado estado;
     public String descripcion;
 
-    //prueba para enseñar a alvaro
 
     public Habitacion(int idHabitacion, Tipo tipo, double precio, Estado estado, String descripcion) {
         this.idHabitacion = idHabitacion;
