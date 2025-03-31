@@ -4,6 +4,7 @@ import java.util.UUID;
 
 public class Cliente {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     String idCliente;
     String nombre;
 
@@ -13,6 +14,8 @@ public class Cliente {
     }
 
 =======
+=======
+>>>>>>> Stashed changes
     String id;
     String nombre;
     
@@ -21,6 +24,9 @@ public class Cliente {
         this.id = UUID.randomUUID().toString();
         this.nombre = nombre;
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
