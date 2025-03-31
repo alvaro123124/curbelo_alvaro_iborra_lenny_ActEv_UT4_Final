@@ -8,6 +8,13 @@ public class Habitacion {
     public String descripcion;
 
 
+
+
+
+
+
+    
+
     public Habitacion(int idHabitacion, Tipo tipo, double precio, Estado estado, String descripcion) {
         this.idHabitacion = idHabitacion;
         this.tipo = tipo;
