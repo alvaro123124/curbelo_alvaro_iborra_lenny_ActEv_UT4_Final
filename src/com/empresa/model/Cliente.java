@@ -3,10 +3,6 @@ package com.empresa.model;
 import java.util.UUID;
 
 public class Cliente {
-
-
-
-    
     String idCliente;
     String nombre;
 
