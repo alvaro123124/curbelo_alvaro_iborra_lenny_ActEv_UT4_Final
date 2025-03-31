@@ -1,7 +1,9 @@
 package com.empresa.model;
 
+import java.util.UUID;
+
 public class Habitacion {
-    public int idHabitacion;
+    public String idHabitacion;
     public Tipo tipo;
     double precio;
     public Estado estado;
@@ -9,8 +11,8 @@ public class Habitacion {
 
     //prueba para enseñar a alvaro
 
-    public Habitacion(int idHabitacion, Tipo tipo, double precio, Estado estado, String descripcion) {
-        this.idHabitacion = idHabitacion;
+    public Habitacion(Tipo tipo, double precio, Estado estado, String descripcion) {
+        this.idHabitacion = UUID.randomUUID().toString();
         this.tipo = tipo;
         this.precio = precio;
         this.estado = estado;
