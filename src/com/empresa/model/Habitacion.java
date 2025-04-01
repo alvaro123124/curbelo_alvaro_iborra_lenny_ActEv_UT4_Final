@@ -9,7 +9,6 @@ public class Habitacion {
     public Estado estado;
     public String descripcion;
 
-    //prueba para enseñar a alvaro
 
     public Habitacion(Tipo tipo, double precio, Estado estado, String descripcion) {
         this.idHabitacion = UUID.randomUUID().toString();
